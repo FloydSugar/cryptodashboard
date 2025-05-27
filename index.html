@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Ethereum Gas Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <span class="site-logo">⛽️</span>
+      <div class="site-title-group">
+        <h1 class="site-title">Crypto Dashboard</h1>
+        <span class="site-desc">Top DeFi, bridges, and services — all in one place</span>
+      </div>
+    </div>
+    <div class="top-bar">
+      <div class="gas-panel">
+        <span>Ethereum Gas:</span>
+        <span id="gas-value">Загрузка...</span>
+      </div>
+      <input type="text" id="search-input" placeholder="Search" autocomplete="off" />
+    </div>
+  </header>
+  <div class="dashboard">
+    <div class="column">
+      <h2>DEX'S</h2>
+      <ul>
+        <li><a href="https://jumper.exchange/" target="_blank">Jumper</a></li>
+        <li><a href="https://swap.defillama.com/" target="_blank">DefiLlama</a></li>
+        <li><a href="https://app.uniswap.org/swap" target="_blank">Uniswap</a></li>
+        <li><a href="https://1inch.io/" target="_blank">1inch</a></li>
+        <li><a href="https://app.layer3.xyz/trade" target="_blank">Layer3 Dex</a></li>
+        <li><a href="https://syncswap.xyz/" target="_blank">SyncSwap</a></li>
+        <li><a href="https://portfolio.metamask.io/swap" target="_blank">Metamask</a></li>
+        <li><a href="https://app.odos.xyz/" target="_blank">Odos</a></li>
+        <li><a href="https://www.sushi.com/swap" target="_blank">Sushi</a></li>
+        <li><a href="https://bebop.xyz/" target="_blank">Bebop</a></li>
+        <li><a href="https://app.balancer.fi/" target="_blank">Balancer</a></li>
+        <li><a href="https://traderjoexyz.com/" target="_blank">TraderJoe</a></li>
+        <li><a href="https://synapseprotocol.com/swap?" target="_blank">Synapse</a></li>
+        <li><a href="https://app.zerion.io/swap" target="_blank">Zerion</a></li>
+        <li><a href="https://app.kim.exchange/swap" target="_blank">Kim</a></li>
+        <li><a href="https://app.eddy.finance/" target="_blank">Eddy</a></li>
+        <li><a href="https://izumi.finance/trade/swap" target="_blank">Izumi</a></li>
+        <li><a href="https://ambient.finance/" target="_blank">Ambient</a></li>
+        <li><a href="https://quickswap.exchange/" target="_blank">QuickSwap</a></li>
+        <li><a href="https://app.dodoex.io/" target="_blank">Dodo</a></li>
+        <li><a href="https://www.enso.finance/swap" target="_blank">Enso</a></li>
+        <li><a href="https://matcha.xyz/" target="_blank">Matcha</a></li>
+        <li><a href="https://pancakeswap.finance/swap" target="_blank">Pancake</a></li>
+        <li><a href="https://kyberswap.com/" target="_blank">Kyber</a></li>
+        <li><a href="https://app.mav.xyz" target="_blank">Maverick</a></li>
+        <li><a href="https://app.koi.finance/swap" target="_blank">KOI</a></li>
+        <li><a href="https://www.ra.exchange" target="_blank">RA</a></li>
+        <li><a href="https://app.xy.finance" target="_blank">XY Finance</a></li>
+        <li><a href="https://app.symbiosis.finance/" target="_blank">Symbiosis</a></li>
+        <li><a href="https://app.rubic.exchange/" target="_blank">Rubic</a></li>
+        <li><a href="https://app.slingshot.finance/swap" target="_blank">Slingshot</a></li>
+        <li><a href="https://app.routernitro.com/swap" target="_blank">Router</a></li>
+        <li><a href="https://app.zetaswap.com/" target="_blank">ZetaSwap</a></li>
+        <li><a href="https://www.zyfi.org" target="_blank">Zyfi</a></li>
+        <li><a href="https://zkswap.finance" target="_blank">ZK Swap</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>BRIDGES</h2>
+      <ul>
+        <li><a href="https://jumper.exchange/" target="_blank">Jumper</a></li>
+        <li><a href="https://www.orbiter.finance/" target="_blank">Orbiter</a></li>
+        <li><a href="https://relay.link/bridge/ethereum/?fromChainId=10" target="_blank">Relay</a></li>
+        <li><a href="https://stargate.finance/transfer" target="_blank">Stargate</a></li>
+        <li><a href="https://www.bungee.exchange/refuel" target="_blank">Bungee</a></li>
+        <li><a href="https://app.layer3.xyz/bridge" target="_blank">Layer3 Bridge</a></li>
+        <li><a href="https://app.routernitro.com/swap?referal=RT1708630192601" target="_blank">Router</a></li>
+        <li><a href="https://superbridge.app/" target="_blank">SuperBridge</a></li>
+        <li><a href="https://www.usenexus.org/" target="_blank">Hyperlane Nexus</a></li>
+        <li><a href="https://owlto.finance/" target="_blank">OwlTo</a></li>
+        <li><a href="https://app.squidrouter.com/" target="_blank">Squid</a></li>
+        <li><a href="https://portfolio.metamask.io/bridge" target="_blank">Metamask</a></li>
+        <li><a href="https://www.zkbridge.com/token" target="_blank">ZK-Bridge</a></li>
+        <li><a href="https://app.rhino.fi?ref=EC3D68D899" target="_blank">RhinoFi</a></li>
+        <li><a href="https://synapseprotocol.com/" target="_blank">Synapse</a></li>
+        <li><a href="https://app.hop.exchange/" target="_blank">Hop</a></li>
+        <li><a href="https://minter.merkly.com/gas" target="_blank">Merkly</a></li>
+        <li><a href="https://lz.gas.zip/" target="_blank">Gas.Zip</a></li>
+        <li><a href="https://app.zerion.io/bridge" target="_blank">Zerion</a></li>
+        <li><a href="https://app.debridge.finance/r/18967" target="_blank">DeBridge</a></li>
+        <li><a href="https://celer.network/" target="_blank">Celer</a></li>
+        <li><a href="https://across.to?ref=0xec3D68dc25BE091b812A67B075f4668e4E4183c3" target="_blank">Across</a></li>
+        <li><a href="https://bridge.connext.network/" target="_blank">Connext</a></li>
+        <li><a href="https://portalbridge.com/" target="_blank">Portal</a></li>
+        <li><a href="https://core.allbridge.io/" target="_blank">AllBridge</a></li>
+        <li><a href="https://www.layerswap.io/app" target="_blank">LayerSwap</a></li>
+        <li><a href="https://console.fuse.io/bridge" target="_blank">Fuse</a></li>
+        <li><a href="https://app.frax.finance/swap/main" target="_blank">FraxSwap</a></li>
+        <li><a href="https://app.slingshot.finance/bridge" target="_blank">Slingshot</a></li>
+        <li><a href="https://app.rubic.exchange/" target="_blank">Rubic</a></li>
+        <li><a href="https://galaxy.exchange/" target="_blank">Galaxy</a></li>
+        <li><a href="https://apechain.com/portal" target="_blank">ApeChain</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>DeFi / Restaking</h2>
+      <ul>
+        <li><a href="https://www.eigenlayer.xyz/" target="_blank">EigenLayer</a></li>
+        <li><a href="http://www.elixir.xyz/refer/hammes8770" target="_blank">Elixir</a></li>
+        <li><a href="https://app.renzoprotocol.com/?ref=0xec3d68dc25be091b812a67b075f4668e4e4183c3" target="_blank">Renzo</a></li>
+        <li><a href="https://app.ethena.fi/join/omp98" target="_blank">Ethena</a></li>
+        <li><a href="https://app.superform.xyz/" target="_blank">Superform</a></li>
+        <li><a href="https://app.swellnetwork.io/swell-l2" target="_blank">Swell</a></li>
+        <li><a href="https://app.silo.finance/" target="_blank">Silo</a></li>
+        <li><a href="https://app.aave.com/" target="_blank">Aave</a></li>
+        <li><a href="https://app.compound.finance/" target="_blank">Compound</a></li>
+        <li><a href="https://curve.fi/#/arbitrum/pools" target="_blank">Curve</a></li>
+        <li><a href="https://app.uniswap.org/pool" target="_blank">Uniswap Pools</a></li>
+        <li><a href="https://stargate.finance/pool" target="_blank">Stargate Pools</a></li>
+        <li><a href="https://syncswap.xyz/pools" target="_blank">SyncSwap Pools</a></li>
+        <li><a href="https://app.beefy.com/" target="_blank">Beefy</a></li>
+        <li><a href="https://karak.network/" target="_blank">Karak</a></li>
+        <li><a href="https://kelpdao.xyz/restake/?utm_source=0xec3D68dc25BE091b812A67B075f4668e4E4183c3" target="_blank">KelpDAO</a></li>
+        <li><a href="https://stake.zircuit.com/" target="_blank">Zircuit</a></li>
+        <li><a href="https://www.puffer.fi" target="_blank">Puffer</a></li>
+        <li><a href="https://stake.lido.fi/" target="_blank">Lido</a></li>
+        <li><a href="https://app.gearbox.fi/" target="_blank">Gearbox</a></li>
+        <li><a href="https://layerbank.finance/" target="_blank">LayerBank</a></li>
+        <li><a href="https://reya.network/lge?referredBy=g4s5rw9y" target="_blank">Reya</a></li>
+        <li><a href="https://app.zerolend.xyz/" target="_blank">ZeroLend</a></li>
+        <li><a href="https://blackwing.fi/" target="_blank">BlackWing</a></li>
+        <li><a href="https://app.pendle.finance/" target="_blank">Pendle</a></li>
+        <li><a href="https://app.radiant.capital/" target="_blank">Radiant</a></li>
+        <li><a href="https://opencover.com" target="_blank">OpenCover</a></li>
+        <li><a href="https://www.ionic.money/" target="_blank">Ionic</a></li>
+        <li><a href="https://app.exact.ly/" target="_blank">Exactly</a></li>
+        <li><a href="https://app.extrafi.io/lend" target="_blank">ExtraFi</a></li>
+        <li><a href="https://app.morpho.org/" target="_blank">Morpho</a></li>
+        <li><a href="https://fluid.instadapp.io/" target="_blank">Fluid</a></li>
+        <li><a href="https://app.mitosis.org" target="_blank">Mitosis</a></li>
+        <li><a href="https://poc.routerintents.com" target="_blank">StakeStone</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Additional</h2>
+      <ul>
+        <li><a href="https://app.ens.domains/" target="_blank">ENS</a></li>
+        <li><a href="https://safe.global" target="_blank">Safe</a></li>
+        <li><a href="https://mint.fun/feed/trending" target="_blank">MintFun</a></li>
+        <li><a href="https://minter.merkly.com/deploy" target="_blank">Deploy #1</a></li>
+        <li><a href="https://dappgate.io/deploy" target="_blank">Deploy #2</a></li>
+        <li><a href="https://rabbithole.gg/" target="_blank">RabbitHole</a></li>
+        <li><a href="https://philand.xyz" target="_blank">Philand</a></li>
+        <li><a href="https://passport.gitcoin.co/#/verax/" target="_blank">Gitcoin</a></li>
+        <li><a href="https://trustgo.trustalabs.ai/dashboard?s=U97TM2I4K5F3" target="_blank">Trusta</a></li>
+        <li><a href="https://warpcast.com/~/invite-page/16768?id=a248300e" target="_blank">Farcaster</a></li>
+        <li><a href="https://snapshot.org/" target="_blank">Snapshot</a></li>
+        <li><a href="https://revoke.cash" target="_blank">Revoke</a></li>
+        <li><a href="https://socialsummer.xyz/" target="_blank">SocialSummer</a></li>
+        <li><a href="https://www.tally.xyz/" target="_blank">Tally</a></li>
+        <li><a href="https://vote.optimism.io/delegates" target="_blank">Agora OP</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Solana</h2>
+      <ul>
+        <li><a href="https://pump.fun/board" target="_blank">PumpFun</a></li>
+        <li><a href="https://app.layer3.xyz/quests?ref=maxwayld.eth" target="_blank">Layer3</a></li>
+        <li><a href="https://jup.ag" target="_blank">Jupiter</a></li>
+        <li><a href="https://vote.jup.ag/" target="_blank">Jupiter Voting</a></li>
+        <li><a href="https://app.solayer.org/dashboard" target="_blank">Solayer</a></li>
+        <li><a href="https://phantom.app/" target="_blank">Phantom</a></li>
+        <li><a href="https://app.phoenix.trade/" target="_blank">Phoenix</a></li>
+        <li><a href="https://backpack.exchange/refer/a303c88c-1890-4837-b482-9eb3ac33d657" target="_blank">Backpack</a></li>
+        <li><a href="https://www.tensor.trade" target="_blank">Tensor</a></li>
+        <li><a href="https://magiceden.io/me" target="_blank">MagicEden</a></li>
+        <li><a href="https://app.meteora.ag" target="_blank">Meteora</a></li>
+        <li><a href="https://drip.haus/" target="_blank">Drip</a></li>
+        <li><a href="https://app.squads.so/" target="_blank">Squads</a></li>
+        <li><a href="https://app.sanctum.so" target="_blank">Sanctum</a></li>
+        <li><a href="https://app.parcl.co/" target="_blank">Parcl</a></li>
+        <li><a href="https://dflow.net/" target="_blank">DFlow</a></li>
+        <li><a href="https://bit.ly/3dNXbSJ" target="_blank">AssetDash</a></li>
+        <li><a href="https://app.cega.fi" target="_blank">Cega</a></li>
+        <li><a href="https://app.circuit.trade/" target="_blank">Circuit</a></li>
+        <li><a href="https://www.jito.network/staking" target="_blank">Jito</a></li>
+        <li><a href="https://stake.solblaze.org/?r=a6963737dcbb1365" target="_blank">SolBlaze</a></li>
+        <li><a href="https://marinade.finance/app" target="_blank">Marinade</a></li>
+        <li><a href="https://bonkrewards.com/" target="_blank">BonkRewards</a></li>
+        <li><a href="https://www.bonkswap.io" target="_blank">BonkSwap</a></li>
+        <li><a href="https://app.kamino.finance" target="_blank">Kamino</a></li>
+        <li><a href="https://www.mfi.gg/refer/4fab4495-6469-4674-a922-e5fc2b8f1453" target="_blank">MarginFi</a></li>
+        <li><a href="https://staking.pyth.network" target="_blank">Pyth</a></li>
+        <li><a href="https://app.step.finance/en/?ref=maxwayld" target="_blank">StepFinance</a></li>
+        <li><a href="https://app.drift.trade/ref/maxy" target="_blank">Drift</a></li>
+        <li><a href="https://dex.zeta.markets?referralCode=Fx3ZpJ" target="_blank">Zeta Market</a></li>
+        <li><a href="https://www.superstakesol.com/" target="_blank">SuperStakeSOL</a></li>
+        <li><a href="https://www.hawksight.co/strategies" target="_blank">HawkSight</a></li>
+        <li><a href="https://solend.fi/dashboard" target="_blank">Solend</a></li>
+        <li><a href="https://francium.io/" target="_blank">Francium</a></li>
+        <li><a href="https://swap.mayan.finance/" target="_blank">Mayan</a></li>
+        <li><a href="https://www.sns.id/" target="_blank">SNS</a></li>
+        <li><a href="https://stake.uxd.fi/" target="_blank">UXD</a></li>
+        <li><a href="https://raydium.io/swap/" target="_blank">Raydium</a></li>
+        <li><a href="https://www.orca.so/" target="_blank">Orca</a></li>
+        <li><a href="https://launchmynft.io/" target="_blank">LMNFT</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Base</h2>
+      <ul>
+        <li><a href="https://bridge.base.org/deposit" target="_blank">Official Bridge</a></li>
+        <li><a href="https://dappradar.com/rankings/protocol/base" target="_blank">All Ecosystem</a></li>
+        <li><a href="https://zora.co/trending" target="_blank">Zora</a></li>
+        <li><a href="https://app.layer3.xyz/category/base?slug=base" target="_blank">Layer3</a></li>
+        <li><a href="https://jumper.exchange/" target="_blank">Jumper</a></li>
+        <li><a href="https://app.uniswap.org/#/swap" target="_blank">Uniswap</a></li>
+        <li><a href="https://app.1inch.io/#/8453/simple/swap/ETH" target="_blank">1inch</a></li>
+        <li><a href="https://app.odos.xyz/" target="_blank">Odos</a></li>
+        <li><a href="https://www.sound.xyz/" target="_blank">Sound</a></li>
+        <li><a href="https://stargate.finance/bridge" target="_blank">Stargate</a></li>
+        <li><a href="https://app.compound.finance/?market=weth-basemainnet" target="_blank">Compound</a></li>
+        <li><a href="https://app.aave.com/?marketName=proto_base_v3" target="_blank">Aave</a></li>
+        <li><a href="https://www.avantisfi.com/referral?code=MAXY" target="_blank">Avantis</a></li>
+        <li><a href="https://www.bungee.exchange/" target="_blank">Bungee</a></li>
+        <li><a href="https://www.orbiter.finance/" target="_blank">Orbiter</a></li>
+        <li><a href="https://magiceden.io/ru/base" target="_blank">MagicEden</a></li>
+        <li><a href="https://opensea.io" target="_blank">Opensea</a></li>
+        <li><a href="https://element.market/base" target="_blank">Element Market</a></li>
+        <li><a href="https://www.sushi.com/base/swap" target="_blank">SushiSwap</a></li>
+        <li><a href="https://dmail.ai/" target="_blank">DMail</a></li>
+        <li><a href="https://rabbithole.gg/quests" target="_blank">RabbitHole</a></li>
+        <li><a href="https://minter.merkly.com/" target="_blank">Merkly</a></li>
+        <li><a href="https://l2pass.com/" target="_blank">L2Pass</a></li>
+        <li><a href="https://pancakeswap.finance/" target="_blank">PancakeSwap</a></li>
+        <li><a href="https://app.squidrouter.com/" target="_blank">Squid</a></li>
+        <li><a href="https://owlto.finance/" target="_blank">OwlTo</a></li>
+        <li><a href="https://mint.fun/feed/free?chain=base" target="_blank">MintFun</a></li>
+        <li><a href="https://aerodrome.finance/" target="_blank">Aerodrome</a></li>
+        <li><a href="https://balancer.fi" target="_blank">Balancer</a></li>
+        <li><a href="https://www.mav.xyz/" target="_blank">Maverick</a></li>
+        <li><a href="https://openocean.finance/" target="_blank">OpenOcean</a></li>
+        <li><a href="https://app.slingshot.finance/swap/Base/ETH" target="_blank">SlingShot</a></li>
+        <li><a href="https://app.rhino.fi/bridge" target="_blank">Rhino</a></li>
+        <li><a href="https://www.synapseprotocol.com/" target="_blank">Synapse</a></li>
+        <li><a href="https://bridge.connext.network/" target="_blank">Connext</a></li>
+        <li><a href="https://app.extrafi.io/" target="_blank">ExtraFi</a></li>
+        <li><a href="https://relay.link/bridge/base" target="_blank">Relay</a></li>
+        <li><a href="https://baseswap.fi/" target="_blank">BaseSwap</a></li>
+        <li><a href="https://app.xy.finance/" target="_blank">XY</a></li>
+        <li><a href="https://fi.woo.org/swap/" target="_blank">WooFi</a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
